@@ -1,8 +1,8 @@
 const canvas = document.getElementById('myCanvas');
         const context = canvas.getContext('2d');
 
-        // Classe Shape representa o objeto que será desenhado e transformado
-        class Shape {
+        // Classe Forma representa o objeto que será desenhado e transformado
+        class Forma {
             constructor(x, y) {
                 this.x = x;
                 this.y = y;
@@ -25,49 +25,49 @@ const canvas = document.getElementById('myCanvas');
             }
         }
 
-        const shape = new Shape(200, 200);
+        const Forma = new Forma(200, 200);
 
         function drawScene() {
             context.clearRect(0, 0, canvas.width, canvas.height);
-            shape.draw();
+            Forma.draw();
         }
 
         drawScene();
 
         function translateObject() {
             // Aplica translação ao objeto
-            shape.x += 50;
-            shape.y += 50;
+            Forma.x += 50;
+            Forma.y += 50;
             drawScene();
         }
 
         function rotateObject() {
             // Aplica rotação ao objeto
-            shape.rotation += Math.PI / 4;
+            Forma.rotation += Math.PI / 4;
             drawScene();
         }
 
         function scaleObject() {
             // Aplica escala ao objeto
-            shape.scaleX *= 2;
-            shape.scaleY *= 2;
+            Forma.scaleX *= 2;
+            Forma.scaleY *= 2;
             drawScene();
         }
 
         function transformObject() {
             // Aplica uma combinação de transformações (translação, rotação e escala) ao objeto
-            shape.x += 20;
-            shape.y += 20;
-            shape.rotation += Math.PI / 4;
-            shape.scaleX *= 1.5;
-            shape.scaleY *= 1.5;
+            Forma.x += 20;
+            Forma.y += 20;
+            Forma.rotation += Math.PI / 4;
+            Forma.scaleX *= 1.5;
+            Forma.scaleY *= 1.5;
             drawScene();
         }
 
         function clipObject() {
             // Aplica um Clipping Path ao objeto (recorte)
             context.beginPath();
-            context.arc(shape.x, shape.y, 50, 0, 2 * Math.PI); // Aumentei o raio para 50
+            context.arc(Forma.x, Forma.y, 50, 0, 2 * Math.PI); // Aumentei o raio para 50
             context.clip();
             drawScene();
         }
