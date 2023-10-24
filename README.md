@@ -7,6 +7,10 @@ O método gira em torno da matriz, usando a tela e os eixos x e y para a movimen
 
 ![image](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127865701/0f9f5524-7bf6-47eb-a139-61d8838929f4)  
 
+![translaçãocod](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/e9b42849-f375-4ad4-8f82-e240046aa946)
+
+Aplicado no canvas
+![translação](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/d02c7a8f-2068-4c62-a511-c9714ac34a08)
 
 (Exemplo de como seria a grade na tela do computador)
 
@@ -16,6 +20,11 @@ O método de Rotação, vai ser baseado fortemente no de Translação, a diferen
 
 ![image](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127865701/91b56f0c-a8a4-4bbd-8a44-a0ad77359fee)
 
+![rotate](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/07783fb4-7935-4459-8c04-b42f8a841076)
+
+Aplicado no canvas
+![roda](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/7c1fc507-798d-46be-b8cd-8be283efb3ab)
+
 
 (Exemplo de como seria a grade na tela do computador em função da rotação)
 
@@ -24,6 +33,10 @@ Usando o método de Scale, você irá adicionar uma escala as unidades da tela, 
 
 
 ![image](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127865701/d488f912-dbac-4f4a-8f1c-974538a0db07)
+
+![scale](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/c062b153-d591-4ccc-86af-0dd103e840ee)
+Aplicando no canvas
+![escala](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/689c942e-03cd-4a23-8c54-674c72bae752)
 
 
 (Exemplo de Scale usado nessa síntaxe ctx.scale(9, 3); 
@@ -37,6 +50,10 @@ Quando a e d são 1, b e c controlam a inclinação horizontal e vertical do con
 
 ![image](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127865701/90bfdde1-831e-48b4-8765-d2f7897e0980)
 
+![transform](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/f0583da4-fa69-4485-8d6d-db694a13b870)
+
+![transformação](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/7b18a6c4-ff8b-4de3-8119-c7e068e13418)
+
 
 (Um exemplo de Transform sendo utilizado.)
 
@@ -46,5 +63,12 @@ O método Clipping Path, pode ser usado como uma máscara para se livrar de part
 
 ![image](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127865701/d5d4f38d-a4ee-4b78-bff4-b3849a802ca0)
 
+![clipcod](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/d50b9c95-e49b-466e-af33-6bbc7a57e489)
+
+![clip](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/b16829b9-f59d-4206-b54e-42991ae130a2)
+
 
 (Exemplo de uso de Clipping Path, forma de estrela vermelha é o nosso traçado de recorte. Tudo o que estiver fora desse caminho não será desenhado na tela)
+
+# Diagrama
+![diagrama](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/1370e34e-3f3f-4453-82bc-9bce3d1116bf)
