@@ -72,3 +72,10 @@ O método Clipping Path, pode ser usado como uma máscara para se livrar de part
 
 # Diagrama
 ![diagrama](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127852558/1370e34e-3f3f-4453-82bc-9bce3d1116bf)
+
+
+# Git Bash
+Aqui estarão os comandos que realizamos, e que tem que ser realizados no Git Bash, para o envio de arquivos ao Git Hub.
+
+![image](https://github.com/GuilhermeM777/Estudo-Transformacoes/assets/127865701/f4215bdc-ade1-432c-8eda-09162d0deab1)
+
